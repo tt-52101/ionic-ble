@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button (click)="scan()">scan</button>
+    <button ion-button (click)="disConnect()">disConnect</button>
+    <button ion-button (click)="status()">status</button>
+    <button ion-button (click)="gToken()">Generate Token</button>
+    <button ion-button (click)="stringToBytes()">Convert string to array buffer</button>
+    <pre>{{ deviceList | json}}</pre>
+</ion-content>
